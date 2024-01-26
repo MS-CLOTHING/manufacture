@@ -1,0 +1,223 @@
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body
+{
+font-family: 'Poppins', sans-serif;    
+}
+
+.top-container
+{
+ padding: 10px 20px;
+ box-shadow: 0px 1px 20px rgba(186, 186, 186, 0.607);
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 10;
+ background-color: white;
+ display: flex;
+ justify-content:space-between ;
+ align-items: center;
+}
+
+.invisible-cont
+{
+    visibility: hidden;
+    width: 10%;
+}
+
+.product-head
+{
+    text-align: center;
+    font-weight: 200;
+    padding: 10px;
+}
+.brand-head
+{
+    width: 80%;
+    text-align: center;
+}
+
+.shop-container
+{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.shop-button
+{
+    background-color: black;
+    border: 0px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+.shop-button a
+{  
+color: white;
+text-decoration: none;
+}
+.shop-button:hover
+{
+    background-color: rgb(81, 81, 81);
+}
+
+.mid-container
+{
+    margin:5% 15px 50px 15px;
+}
+
+.lists{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+    text-transform: capitalize;
+    /* border: 1px solid rgb(138, 137, 137); */
+    transition: all 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.container:hover{
+    transform: scale(1.05);
+}
+.container img{
+    width: 95%;
+}
+.brand-name{
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.cloth-name,.cloth-price,.cloth-mrp{
+    font-weight: 300;
+  }
+.cloth-mrp{
+    text-decoration: line-through;
+    color: red;
+    margin-left: 5px;
+  }
+.rate{
+    margin-bottom: 20px;
+}
+
+
+.overlay-shop
+{
+    display: none;
+}
+ /* Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+    .container{
+        width: 31.3%;
+        margin: 1%;
+    }
+ }
+
+
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .mid-container
+{
+    margin:10% 15px 50px 15px;
+}
+    .container{
+        width: 48%;
+        margin: 1%;
+    }
+    .shop-container
+{
+ display: none;
+}
+    .overlay-shop
+{
+    position: fixed;
+    width: 100%;
+    bottom:0%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding:15px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+ }
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media ( max-width:  576px) { 
+
+.invisible-cont
+{
+ display: none;
+}
+.brand-head
+{
+    width: 100%;
+}
+
+.overlay-shop
+{
+    position: fixed;
+    width: 100%;
+    bottom:0%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding:15px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.overlay-shop span
+{
+  text-transform: capitalize;
+}
+.bag
+{
+    font-size: 150%;
+    margin-right: 15px;
+}
+.shop-container
+{
+ display: none;
+}
+
+.mid-container
+{
+    margin:17% 15px 50px 15px;
+}
+    .container{
+        width: 96%;
+        margin: 3% 0% 1% 0%;
+
+    }
+
+}
+
+
+
+
+
+ /* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */
