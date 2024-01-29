@@ -48,6 +48,30 @@ tshirts = [
        "./assets/images/black.jpg",
     ]
   },
+    {
+    name:"Hoodies",
+    price:"250",
+    mrp:"600",
+    images:[
+      "./assets/images/11.jpg",
+      "./assets/images/blue.jpg",
+      "./assets/images/blue.jpg",
+      "./assets/images/blue.jpg",
+      "./assets/images/blue.jpg",
+    ]
+  },
+  {
+    name:"Printed Tees",
+    price:"250",
+    mrp:"600",
+    images:[
+      "./assets/images/12.jpg",
+      "./assets/images/blue.jpg",
+      "./assets/images/blue.jpg",
+      "./assets/images/blue.jpg",
+      "./assets/images/blue.jpg",
+    ]
+  },
   {
     name:"Track Pants",
     price:"250",
