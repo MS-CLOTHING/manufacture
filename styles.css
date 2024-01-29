@@ -215,6 +215,15 @@ text-decoration: none;
 
 }
 
+@media ( max-width:  450px) { 
+
+.brand-head
+{
+    font-size: 140%;
+}
+}
+
+
 
 
 
