@@ -12,7 +12,11 @@ function clothList()
         let a =  document.createElement('a');
         a.classList.add("container");
         // a.href = "./details.html";
-        a.onclick = function(){selectContent(tshirts[i].name)} 
+        a.onclick = function(){
+            directToWhatsapp();
+            selectContent(tshirts[i].name)
+        
+        } 
         let img = document.createElement('img');
         img.src = "./assets/images/blue.jpg";
         img.src = tshirts[i].images[0];
@@ -59,6 +63,6 @@ function selectContent(selected)
 
 function directToWhatsapp()
 {
-    window.open(`https://api.whatsapp.com/send?phone=918220162220&text=Hai I Want Shop a Cloth ! `, '_blank');
+    window.open(`https://api.whatsapp.com/send?phone=918220162220`, '_blank');
 }
 
