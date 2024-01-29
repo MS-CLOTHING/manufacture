@@ -1,17 +1,17 @@
 
 tshirts = [
-  {
-    name:"Half sleeve T-shirt",
-    price:"250",
-    mrp:"600",
-    images:[
-      "./assets/images/2.jpg",
-      "./assets/images/blue.jpg",
-      "./assets/images/blue.jpg",
-      "./assets/images/blue.jpg",
-      "./assets/images/blue.jpg",
-    ]
-  },
+  // {
+  //   name:"Half sleeve T-shirt",
+  //   price:"250",
+  //   mrp:"600",
+  //   images:[
+  //     "./assets/images/2.jpg",
+  //     "./assets/images/blue.jpg",
+  //     "./assets/images/blue.jpg",
+  //     "./assets/images/blue.jpg",
+  //     "./assets/images/blue.jpg",
+  //   ]
+  // },
   {
     name:"Half sleeve T-shirt",
     price:"300",

@@ -39,6 +39,7 @@ font-family: 'Poppins', sans-serif;
 {
     width: 80%;
     text-align: center;
+    white-space: nowrap;
 }
 
 .shop-container
@@ -219,7 +220,7 @@ text-decoration: none;
 
 .brand-head
 {
-    font-size: 140%;
+    font-size: 130%;
 }
 }
 
